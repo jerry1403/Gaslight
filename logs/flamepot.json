@@ -1,0 +1,159 @@
+{"time": "2025-10-26 14:36:00,210", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:36:53,228", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:36:53,229", "level": 40, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Exception in connection handler: [Errno 98] error while attempting to bind on address ('0.0.0.0', 2222): address already in use"}
+{"time": "2025-10-26 14:37:14,577", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:38:10,314", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Accepted SSH client connection"}
+{"time": "2025-10-26 14:38:10,315", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:38:10,315", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Peer address: 172.18.0.1, port 52364"}
+{"time": "2025-10-26 14:38:10,316", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:38:10,370", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Beginning auth for user root"}
+{"time": "2025-10-26 14:38:15,159", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "g", "command": null, "message": "Login attempt: root/g"}
+{"time": "2025-10-26 14:38:16,011", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "", "command": null, "message": "Login attempt: root/"}
+{"time": "2025-10-26 14:38:16,448", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "", "command": null, "message": "Login attempt: root/"}
+{"time": "2025-10-26 14:38:16,643", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "", "command": null, "message": "Login attempt: root/"}
+{"time": "2025-10-26 14:38:16,805", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "", "command": null, "message": "Login attempt: root/"}
+{"time": "2025-10-26 14:38:16,805", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Auth for user root succeeded"}
+{"time": "2025-10-26 14:38:16,806", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Sending server host keys disabled"}
+{"time": "2025-10-26 14:38:16,807", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:38:16,808", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   PTY created"}
+{"time": "2025-10-26 14:38:16,808", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   Line editor enabled"}
+{"time": "2025-10-26 14:38:16,809", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   Interactive shell requested"}
+{"time": "2025-10-26 14:38:25,236", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Closing channel due to connection close"}
+{"time": "2025-10-26 14:38:25,237", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Channel closed"}
+{"time": "2025-10-26 14:38:25,237", "level": 20, "ip": "172.18.0.1", "port": 52364, "username": "root", "password": "", "command": null, "message": "Connection lost from 172.18.0.1"}
+{"time": "2025-10-26 14:38:36,102", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Accepted SSH client connection"}
+{"time": "2025-10-26 14:38:36,103", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:38:36,103", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Peer address: 172.18.0.1, port 40204"}
+{"time": "2025-10-26 14:38:36,104", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:38:36,130", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Beginning auth for user kali"}
+{"time": "2025-10-26 14:38:37,574", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": null, "message": "Login attempt: kali/"}
+{"time": "2025-10-26 14:38:37,883", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": null, "message": "Login attempt: kali/"}
+{"time": "2025-10-26 14:38:38,070", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": null, "message": "Login attempt: kali/"}
+{"time": "2025-10-26 14:38:38,214", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": null, "message": "Login attempt: kali/"}
+{"time": "2025-10-26 14:38:38,356", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": null, "message": "Login attempt: kali/"}
+{"time": "2025-10-26 14:38:38,357", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:38:38,357", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Sending server host keys disabled"}
+{"time": "2025-10-26 14:38:38,358", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:38:38,360", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:38:40,345", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | hi"}
+{"time": "2025-10-26 14:38:40,346", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "hi", "message": "Command from kali: hi"}
+{"time": "2025-10-26 14:38:44,622", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ki koris"}
+{"time": "2025-10-26 14:38:44,623", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "ki koris", "message": "Command from kali: ki koris"}
+{"time": "2025-10-26 14:38:48,280", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | are"}
+{"time": "2025-10-26 14:38:48,280", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "are", "message": "Command from kali: are"}
+{"time": "2025-10-26 14:38:55,007", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ki hoyeche tor"}
+{"time": "2025-10-26 14:38:55,008", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "ki hoyeche tor", "message": "Command from kali: ki hoyeche tor"}
+{"time": "2025-10-26 14:39:03,386", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | tor maire chut"}
+{"time": "2025-10-26 14:39:03,386", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "tor maire chut", "message": "Command from kali: tor maire chut"}
+{"time": "2025-10-26 14:39:22,253", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | you are a nunu"}
+{"time": "2025-10-26 14:39:22,254", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "you are a nunu", "message": "Command from kali: you are a nunu"}
+{"time": "2025-10-26 14:39:35,563", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | khanki magi"}
+{"time": "2025-10-26 14:39:35,563", "level": 20, "ip": "172.18.0.1", "port": 40204, "username": "kali", "password": "", "command": "khanki magi", "message": "Command from kali: khanki magi"}
+{"time": "2025-10-26 14:43:06,908", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:43:16,456", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Accepted SSH client connection"}
+{"time": "2025-10-26 14:43:16,456", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:43:16,457", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Peer address: 172.18.0.1, port 46312"}
+{"time": "2025-10-26 14:43:16,457", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:43:16,466", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Beginning auth for user kali"}
+{"time": "2025-10-26 14:43:19,627", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": "kali", "password": "baal", "command": null, "message": "Login attempt: kali/baal"}
+{"time": "2025-10-26 14:43:19,628", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:43:19,628", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Sending server host keys disabled"}
+{"time": "2025-10-26 14:43:19,629", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:43:19,631", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:43:24,755", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | are esechis"}
+{"time": "2025-10-26 14:43:24,755", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": "kali", "password": "baal", "command": "are esechis", "message": "Command from kali: are esechis"}
+{"time": "2025-10-26 14:43:30,422", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | tor maire chut"}
+{"time": "2025-10-26 14:43:30,423", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": "kali", "password": "baal", "command": "tor maire chut", "message": "Command from kali: tor maire chut"}
+{"time": "2025-10-26 14:43:51,858", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | se ta to thik ache kintu eita na bolleo hoto"}
+{"time": "2025-10-26 14:43:51,860", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": "kali", "password": "baal", "command": "se ta to thik ache kintu eita na bolleo hoto", "message": "Command from kali: se ta to thik ache kintu eita na bolleo hoto"}
+{"time": "2025-10-26 14:43:56,567", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Closing channel due to connection close"}
+{"time": "2025-10-26 14:43:56,568", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Channel closed"}
+{"time": "2025-10-26 14:43:56,568", "level": 20, "ip": "172.18.0.1", "port": 46312, "username": "kali", "password": "baal", "command": null, "message": "Connection lost from 172.18.0.1"}
+{"time": "2025-10-26 14:43:58,032", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Accepted SSH client connection"}
+{"time": "2025-10-26 14:43:58,033", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:43:58,033", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Peer address: 172.18.0.1, port 55520"}
+{"time": "2025-10-26 14:43:58,034", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:43:58,044", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Beginning auth for user kali"}
+{"time": "2025-10-26 14:43:59,322", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": null, "message": "Login attempt: kali/k"}
+{"time": "2025-10-26 14:43:59,323", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:43:59,324", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Sending server host keys disabled"}
+{"time": "2025-10-26 14:43:59,325", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:43:59,326", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:44:00,962", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ki"}
+{"time": "2025-10-26 14:44:00,963", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "ki", "message": "Command from kali: ki"}
+{"time": "2025-10-26 14:44:03,886", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | sd"}
+{"time": "2025-10-26 14:44:03,887", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "sd", "message": "Command from kali: sd"}
+{"time": "2025-10-26 14:44:07,732", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | cfgf"}
+{"time": "2025-10-26 14:44:07,733", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "cfgf", "message": "Command from kali: cfgf"}
+{"time": "2025-10-26 14:44:09,437", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | sd"}
+{"time": "2025-10-26 14:44:09,438", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "sd", "message": "Command from kali: sd"}
+{"time": "2025-10-26 14:44:15,963", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | khanki"}
+{"time": "2025-10-26 14:44:15,964", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "khanki", "message": "Command from kali: khanki"}
+{"time": "2025-10-26 14:44:31,130", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | thik ache bhai bujhechi"}
+{"time": "2025-10-26 14:44:31,131", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "thik ache bhai bujhechi", "message": "Command from kali: thik ache bhai bujhechi"}
+{"time": "2025-10-26 14:44:41,847", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | debayan senapati"}
+{"time": "2025-10-26 14:44:41,847", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "debayan senapati", "message": "Command from kali: debayan senapati"}
+{"time": "2025-10-26 14:44:56,836", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | L diye de majhe besi khusi hobo"}
+{"time": "2025-10-26 14:44:56,837", "level": 20, "ip": "172.18.0.1", "port": 55520, "username": "kali", "password": "k", "command": "L diye de majhe besi khusi hobo", "message": "Command from kali: L diye de majhe besi khusi hobo"}
+{"time": "2025-10-26 14:51:14,990", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:51:46,825", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Accepted SSH client connection"}
+{"time": "2025-10-26 14:51:46,826", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:51:46,826", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Peer address: 172.18.0.1, port 41716"}
+{"time": "2025-10-26 14:51:46,826", "level": 20, "ip": "172.18.0.1", "port": 41716, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:51:46,848", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Beginning auth for user kali"}
+{"time": "2025-10-26 14:51:48,714", "level": 20, "ip": "172.18.0.1", "port": 41716, "username": "kali", "password": "k", "command": null, "message": "Login attempt: kali/k"}
+{"time": "2025-10-26 14:51:48,714", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:51:48,715", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Sending server host keys disabled"}
+{"time": "2025-10-26 14:51:48,716", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:51:48,718", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:51:52,413", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ls"}
+{"time": "2025-10-26 14:51:52,414", "level": 20, "ip": "172.18.0.1", "port": 41716, "username": "kali", "password": "k", "command": "ls", "message": "Command from kali: ls"}
+{"time": "2025-10-26 14:52:02,295", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | are to seta bolbi keno"}
+{"time": "2025-10-26 14:52:02,295", "level": 20, "ip": "172.18.0.1", "port": 41716, "username": "kali", "password": "k", "command": "are to seta bolbi keno", "message": "Command from kali: are to seta bolbi keno"}
+{"time": "2025-10-26 14:57:03,769", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "Creating SSH listener on port 2222"}
+{"time": "2025-10-26 14:57:17,272", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Accepted SSH client connection"}
+{"time": "2025-10-26 14:57:17,273", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:57:17,273", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0]   Peer address: 172.18.0.1, port 60118"}
+{"time": "2025-10-26 14:57:17,274", "level": 20, "ip": "172.18.0.1", "port": 60118, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:57:17,282", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Beginning auth for user kali"}
+{"time": "2025-10-26 14:57:19,355", "level": 20, "ip": "172.18.0.1", "port": 60118, "username": "kali", "password": "baal", "command": null, "message": "Login attempt: kali/baal"}
+{"time": "2025-10-26 14:57:19,356", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:57:19,356", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0] Sending server host keys disabled"}
+{"time": "2025-10-26 14:57:19,357", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:57:19,359", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:57:21,393", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ls"}
+{"time": "2025-10-26 14:57:21,393", "level": 20, "ip": "172.18.0.1", "port": 60118, "username": "kali", "password": "baal", "command": "ls", "message": "Command from kali: ls"}
+{"time": "2025-10-26 14:58:13,235", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Closing channel due to connection close"}
+{"time": "2025-10-26 14:58:13,236", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=0, chan=0] Channel closed"}
+{"time": "2025-10-26 14:58:13,236", "level": 20, "ip": "172.18.0.1", "port": 60118, "username": "kali", "password": "baal", "command": null, "message": "Connection lost from 172.18.0.1"}
+{"time": "2025-10-26 14:58:14,987", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Accepted SSH client connection"}
+{"time": "2025-10-26 14:58:14,988", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:58:14,988", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1]   Peer address: 172.18.0.1, port 39260"}
+{"time": "2025-10-26 14:58:14,988", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:58:14,997", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Beginning auth for user kali"}
+{"time": "2025-10-26 14:58:16,558", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": "kali", "password": "ka", "command": null, "message": "Login attempt: kali/ka"}
+{"time": "2025-10-26 14:58:16,559", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:58:16,559", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1] Sending server host keys disabled"}
+{"time": "2025-10-26 14:58:16,560", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:58:16,562", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:58:18,714", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | dire"}
+{"time": "2025-10-26 14:58:18,715", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": "kali", "password": "ka", "command": "dire", "message": "Command from kali: dire"}
+{"time": "2025-10-26 14:58:20,903", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | dir"}
+{"time": "2025-10-26 14:58:20,904", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": "kali", "password": "ka", "command": "dir", "message": "Command from kali: dir"}
+{"time": "2025-10-26 14:58:23,548", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ls"}
+{"time": "2025-10-26 14:58:23,548", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": "kali", "password": "ka", "command": "ls", "message": "Command from kali: ls"}
+{"time": "2025-10-26 14:58:29,291", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0] Closing channel due to connection close"}
+{"time": "2025-10-26 14:58:29,292", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=1, chan=0] Channel closed"}
+{"time": "2025-10-26 14:58:29,292", "level": 20, "ip": "172.18.0.1", "port": 39260, "username": "kali", "password": "ka", "command": null, "message": "Connection lost from 172.18.0.1"}
+{"time": "2025-10-26 14:58:30,459", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2] Accepted SSH client connection"}
+{"time": "2025-10-26 14:58:30,459", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2]   Local address: 172.18.0.3, port 2222"}
+{"time": "2025-10-26 14:58:30,459", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2]   Peer address: 172.18.0.1, port 41850"}
+{"time": "2025-10-26 14:58:30,460", "level": 20, "ip": "172.18.0.1", "port": 41850, "username": null, "password": null, "command": null, "message": "Connection from 172.18.0.1"}
+{"time": "2025-10-26 14:58:30,468", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2] Beginning auth for user kali"}
+{"time": "2025-10-26 14:58:31,404", "level": 20, "ip": "172.18.0.1", "port": 41850, "username": "kali", "password": "ls", "command": null, "message": "Login attempt: kali/ls"}
+{"time": "2025-10-26 14:58:31,404", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2] Auth for user kali succeeded"}
+{"time": "2025-10-26 14:58:31,405", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2] Sending server host keys disabled"}
+{"time": "2025-10-26 14:58:31,406", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2, chan=0] New SSH session requested"}
+{"time": "2025-10-26 14:58:31,408", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "[conn=2, chan=0]   Command: root@localhost"}
+{"time": "2025-10-26 14:58:32,220", "level": 20, "ip": null, "port": null, "username": null, "password": null, "command": null, "message": "172.18.0.1 | ls"}
+{"time": "2025-10-26 14:58:32,221", "level": 20, "ip": "172.18.0.1", "port": 41850, "username": "kali", "password": "ls", "command": "ls", "message": "Command from kali: ls"}
